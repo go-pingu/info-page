@@ -1,0 +1,179 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+header{
+  background-image: radial-gradient(rgba(104, 31, 53,.6),rgba(252, 2, 93,.6)), url(https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  text-transform: uppercase;
+  min-height: 100%;
+}
+
+.top_bar{
+  padding: 2rem 2rem 7rem;
+}
+
+.top_bar h5{
+  margin-bottom: 0;
+}
+
+.top_btns_item{
+  background: rgba(255,255,255,0.05);
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.top_btns_item:hover{
+  border: 2px solid #2bbed8;
+  background: #2bbed8;
+  transform: scale(.95);
+}
+
+.page_title{
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #fff;
+}
+
+.page_title h1{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.page_title h6{
+  padding-top: 3.5rem;
+  text-transform: none;
+}
+
+.page_title .info_frame{
+  border: 0.6rem #fff;
+  border-style: solid dashed dashed solid;
+  text-align: center;
+  padding: 1rem;
+}
+
+.info_frame p{
+  text-transform: none;
+}
+
+.section1{
+  background-image: radial-gradient(rgba(61, 76, 81,.6),rgba(11, 141, 181,.6)) ,url(https://static.pexels.com/photos/518244/pexels-photo-518244.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 4rem;
+}
+
+.stripe_container{
+  padding: 2rem 0 4rem 0;
+}
+
+.blank_stripe{
+  background-color: #fff;
+}
+
+.p_stripe p{
+  padding: 1rem 1.5rem;
+  border: 0.6rem #fff;
+  border-style: solid solid dashed;
+  margin: 0;
+}
+
+.logos_stripe{
+  padding-left: 2rem;
+  background-color: #fff;
+  display: flex;
+}
+
+.logos_container{
+  align-self: center;
+}
+
+.logos_stripe .logos_item{
+  margin: 0.1rem;
+}
+
+.section2{
+  color: #000;
+  padding: 4rem 0;
+}
+
+.pink_font{
+  color: #f44165;
+}
+
+.section2 p{
+  padding: 1rem 0;
+}
+
+.section2 .steps_btns{
+  padding: 0;
+  list-style-type: none;
+}
+
+.section2 .steps_btn{
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.7rem;
+  padding: 0.5rem;
+  border: 2px solid #000;
+  border-radius: 100%;
+  background: rgba(255,255,255,0.05);
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.7rem;
+  transition: all .2s ease-in-out;
+}
+
+.section2 .steps_btn:hover{
+  border: 2px solid #f44165;
+  background-color: #f44165;
+  color: #fff;
+  transform: scale(.95);
+}
+
+.section2 .register_icon{
+  margin: auto;
+  max-width: 20rem;
+}
+
+.register_icon img{
+  padding: 2rem;
+  max-width: 18rem;
+  height: auto;
+
+}
+
+@media(max-width: 992px){
+  .blank_stripe{
+    display: none;
+  }
+
+  .p_stripe{
+    margin: 0 auto 5rem auto;
+  }
+
+  .logos_stripe{
+    padding: 2rem;
+  }
+
+  .section2 .steps_btns{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 768px){
+  .section2 .steps_btn{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+}
